@@ -48,33 +48,68 @@ from the last 7 days. Focus on developments that matter to a product lawyer at A
 Return the results as a JSON array per your instructions."""
 
 
+def extract_text(response) -> str:
+    """Pull all text blocks out of a response and join them."""
+    parts = [block.text for block in response.content if block.type == "text"]
+    return "\n".join(parts).strip()
+
+
+def strip_fences(text: str) -> str:
+    """Remove markdown code fences if present."""
+    text = text.strip()
+    if text.startswith("```"):
+        text = text[text.index("\n") + 1:]  # drop the opening ``` line
+    if text.endswith("```"):
+        text = text[:text.rindex("```")]
+    return text.strip()
+
+
 def fetch_articles() -> list[dict]:
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+    today = datetime.now(timezone.utc).strftime("%A, %d %B %Y")
 
-    response = client.messages.create(
+    # Step 1: use web_search to gather raw news
+    search_prompt = (
+        f"Today is {today}. Search for the most important fintech, payments, and financial "
+        "services legal/regulatory news from the last 7 days. Focus on: payment licensing, "
+        "APAC regulators (ASIC, MAS, HKMA), cross-border payments, FX regulation, AML/sanctions, "
+        "and news about Airwallex, Wise, Stripe, Revolut, or Adyen. "
+        "Gather at least 10 relevant articles. For each, note the headline, source, date, URL, and a brief description."
+    )
+
+    search_response = client.messages.create(
         model="claude-opus-4-8",
         max_tokens=4096,
         system=SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": USER_PROMPT}],
+        messages=[{"role": "user", "content": search_prompt}],
         tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 8}],
     )
+    search_summary = extract_text(search_response)
+    print(f"Search step done. Summary length: {len(search_summary)} chars.")
 
-    # Extract the final text block (after any tool use)
-    text = ""
-    for block in response.content:
-        if block.type == "text":
-            text = block.text
+    # Step 2: convert the gathered info into strict JSON
+    json_prompt = (
+        "Based on the articles you just found, produce the final JSON array now. "
+        "Return ONLY the JSON array — no explanation, no markdown fences. "
+        "Each object must have: title, source, date (YYYY-MM-DD), summary (2 sentences), url, region, tags."
+    )
 
-    # Strip any accidental markdown fences
-    text = text.strip()
-    if text.startswith("```"):
-        text = text.split("```")[1]
-        if text.startswith("json"):
-            text = text[4:]
-    text = text.strip()
+    json_response = client.messages.create(
+        model="claude-opus-4-8",
+        max_tokens=4096,
+        system=SYSTEM_PROMPT,
+        messages=[
+            {"role": "user", "content": search_prompt},
+            {"role": "assistant", "content": search_response.content},
+            {"role": "user", "content": json_prompt},
+        ],
+    )
+
+    text = strip_fences(extract_text(json_response))
+    print(f"JSON step done. Raw output (first 200 chars): {text[:200]}")
 
     articles = json.loads(text)
-    return articles[:10]  # hard cap at 10
+    return articles[:10]
 
 
 def main():
