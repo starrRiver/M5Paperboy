@@ -1,141 +1,185 @@
 {
-  "generated_at": "2026-06-05T21:29:44.755785+00:00",
-  "articles": [
+  "generated_at": "2026-06-05T22:19:14.905210+00:00",
+  "date": "2026-06-04",
+  "sections": [
     {
-      "title": "Airwallex Research Pegs Cross-Border B2B Payment Friction at $330bn",
-      "source": "Airwallex Newsroom",
-      "date": "2026-06-03",
-      "summary": "Airwallex and the Centre for Economics and Business Research published analysis quantifying a 'Global Growth Tariff' of roughly $330 billion in working capital tied up by legacy B2B cross-border payment systems, with EMEA bearing about $144 billion. For a product lawyer this is a market-positioning and advertising-substantiation matter that supports Airwallex's policy case for faster, more transparent settlement infrastructure.",
-      "url": "https://www.airwallex.com/global/newsroom/airwallex-reveals-outdated-payment-systems-cost-global-businesses-330-billion-every-year",
-      "region": "Global",
-      "tags": [
-        "cross-border",
-        "Airwallex",
-        "FX"
+      "id": "fintech",
+      "title": "Fintech & Payments",
+      "articles": [
+        {
+          "title": "RBA Payments Board Lifts No-Surcharge Ban, Eyes System-Wide Crypto Uplift",
+          "source": "Reserve Bank of Australia",
+          "date": "2026-06-04",
+          "summary": "The Reserve Bank of Australia's Payments System Board, meeting on 4 June 2026, confirmed implementation of its Review of Merchant Card Payment Costs and Surcharging and flagged a sweeping new consultation on payments regulation that will reach far beyond card networks. Following the Conclusions Paper published on 31 March 2026, the RBA amended RBA Standards Nos 1, 2 and 3 to give effect to the review's conclusions, with the amended standards registered on the Federal Register of Legislation on 14 April 2026. The Board confirmed it will lift the prohibition on no-surcharge rules for the designated eftpos, Mastercard and Visa networks, and the RBA has been engaging designated card networks on plans to introduce no-surcharge rules. Australian Payments Plus published an update the same day confirming a zero-surcharge limit will apply to eftpos transactions from 1 October 2026. The Board also flagged a public consultation commencing by the end of June to seek stakeholder views on issues warranting regulatory intervention and how they should be prioritised — covering competition, efficiency and safety issues including mobile wallets, three-party schemes such as American Express, BNPL providers and e-commerce platforms. Separately, the Board discussed emerging risks from advances in classical and quantum computing and agreed to broaden the RBA's focus to system-wide cryptographic issues across the Australian payments system, extending beyond card payments, reaffirming the December 2030 target for quantum-related cryptographic uplift. The Board also approved its full assessment of RITS, Australia's real-time gross settlement system, against the Principles for Financial Market Infrastructures. For Airwallex — whose founding market is Australia and which operates as an acquirer and PSP locally — the changes carry direct product and pricing implications. The interchange-reduction and scheme-fee transparency measures affect Airwallex's cost base and merchant pricing models, while the impending end of surcharging reshapes how merchant clients structure card acceptance. The mid-2026 consultation extending to e-commerce platforms, mobile wallets and BNPL signals broadening regulatory perimeter that a product lawyer should engage with through submissions, and the cryptographic uplift mandate creates a forward compliance obligation for Airwallex's card-handling infrastructure.",
+          "url": "https://www.rba.gov.au/media-releases/2026/mr-26-14.html",
+          "region": "APAC",
+          "tags": [
+            "card schemes",
+            "surcharging",
+            "RBA",
+            "interchange"
+          ]
+        },
+        {
+          "title": "Airwallex Acquires Leapfin to Build End-to-End Financial Lifecycle Platform",
+          "source": "Business Wire",
+          "date": "2026-06-04",
+          "summary": "Airwallex announced on 4 June 2026 that it has acquired Leapfin, a financial data automation platform specialising in revenue recognition and reconciliation, in a move that extends the global payments company's reach from accepting payments through to closing the books. The acquisition is designed to allow businesses to transition operational transaction data into GAAP-ready financials, integrating Leapfin's revenue-accounting capabilities with Airwallex's global infrastructure to give finance teams a foundation for the entire record-to-report process. CEO and co-founder Jack Zhang said finance teams are managing unprecedented complexity across multiple entities, currencies and fragmented data systems, and that bringing Leapfin's data engine and accounting AI agents into the Airwallex ecosystem lets the company close the loop on the financial lifecycle from accepting payments to closing the books. Airwallex said its infrastructure processes over $266 billion in annual transaction volume and serves more than 250,000 customers globally, and that Leapfin's core product, leadership and engineering teams will continue operating to ensure continuity for existing customers. The deal follows Airwallex's September acquisition of OpenPay and its May 2026 launch of Airwallex Billing, signalling a deliberate push up the financial-operations stack against rivals such as Stripe Billing and Recurly. Airwallex noted it holds 85+ licences across North America, Europe, the Middle East and Asia-Pacific. For a product lawyer, the acquisition raises several action items: integrating Leapfin's revenue-recognition and accounting-AI functionality may engage data-governance, customer-data-use and AI-transparency obligations across multiple jurisdictions, particularly as EU AI Act high-risk classifications and AMLA-era data integrity expectations tighten. Diligence on Leapfin's existing customer contracts, data-processing arrangements and any regulated-activity exposure is critical, as is confirming that the combined record-to-report product does not stray into regulated bookkeeping or audit territory in key markets. The deal also reinforces Airwallex's competitive positioning as a full-stack financial platform rather than a pure payments provider — a strategic shift legal teams should map against the company's existing licensing footprint.",
+          "url": "https://www.airwallex.com/global/newsroom/airwallex-acquires-leapfin-expanding-financial-lifecycle-capabilities",
+          "region": "Global",
+          "tags": [
+            "Airwallex",
+            "M&A",
+            "embedded finance",
+            "revenue recognition"
+          ]
+        }
       ]
     },
     {
-      "title": "Revolut Eyes US Bank Launch With FDIC-Insured Accounts and Stablecoins",
-      "source": "CoinLaw",
-      "date": "2026-06-03",
-      "summary": "Reporting confirmed Revolut is pursuing a US national bank charter (filed March) to launch a branchless Stamford-based bank around 2027, bundling FDIC-insured accounts with stablecoin, crypto and multi-currency deposits aimed at cross-border customers. For Airwallex this is a competitive signal underscoring the strategic premium on US licensing depth and the convergence of stablecoin rails with mainstream banking.",
-      "url": "https://coinlaw.io/revolut-us-bank-launch-fdic-insured-accounts/",
-      "region": "Americas",
-      "tags": [
-        "licensing",
-        "Revolut",
-        "stablecoin"
+      "id": "caselaw",
+      "title": "Case Law",
+      "articles": [
+        {
+          "title": "Zip Co Limited v Firstmac Limited [2026] HCA 16",
+          "source": "High Court of Australia",
+          "date": "2026-05-13",
+          "summary": "Facts: Firstmac, a non-bank lender, registered the word mark 'ZIP' in 2004 for financial services (loans) in Class 36. From November 2013 the Zip Companies (Zip Co and Zipmoney), operating buy-now-pay-later services, used signs containing 'ZIP' that were substantially identical or deceptively similar to the Firstmac Mark. Before launching, the Zip Companies had received adverse IP Australia examination reports citing the Firstmac Mark but proceeded without seeking legal advice. Issue: Whether the Zip Companies could rely on the 'honest concurrent use' defences under ss 122(1)(f) and 122(1)(fa), read with s 44(3), of the Trade Marks Act 1995 (Cth), and the relevant date and meaning of 'honesty' for assessing that defence. Holding: The Court unanimously dismissed the appeal, holding that honest concurrent use is assessed at the time of each alleged potential infringement (not by reference to later-built reputation), and that 'honesty' is judged against the standard of ordinary, decent people. Having ignored a known conflict, the Zip Companies could not prove honesty at first use. Significance: For commercial and fintech practitioners, the decision is a cautionary tale on brand clearance: a fast-growing fintech can face injunctions, damages and forced rebranding despite substantial later goodwill. It clarifies that an adverse examination report is a formal warning, and that businesses must conduct clearance searches, document their reasoning, and address conflicts before commencing use.",
+          "url": "https://www.hcourt.gov.au/sites/default/files/eresources/2026-05-13/HCA/Zip%20Co%20Ltd%20v%20Firstmac%20Ltd%20(S140-2025)%20%5B2026%5D%20HCA%2016.pdf",
+          "region": "Australia",
+          "tags": [
+            "trade-marks",
+            "fintech",
+            "honest-concurrent-use",
+            "Australia"
+          ]
+        }
       ]
     },
     {
-      "title": "MAS Revokes Major Payment Institution Licence of Bsquared Technology",
-      "source": "Monetary Authority of Singapore",
-      "date": "2026-05-20",
-      "summary": "MAS revoked Bsquared Technology's Major Payment Institution licence effective May 14, 2026 after an inspection found serious risk-management and outsourcing failings and false or misleading information provided from application through inspection. For Airwallex, which holds MAS licensing and is co-headquartered in Singapore, this is a precedent on outsourcing, related-party governance and candour with the regulator.",
-      "url": "https://www.mas.gov.sg/news/media-releases/2026/mas-revokes-the-major-payment-institution-licence-of-bsquared-technology-pte-ltd",
-      "region": "APAC",
-      "tags": [
-        "enforcement",
-        "MAS",
-        "Singapore",
-        "licensing"
-      ]
-    },
-    {
-      "title": "HKMA Grants First Two Stablecoin Licences to Anchorpoint and HSBC",
-      "source": "Hong Kong Monetary Authority",
-      "date": "2026-04-10",
-      "summary": "The HKMA granted Hong Kong's first stablecoin issuer licences to Anchorpoint (Standard Chartered/HKT/Animoca JV) and HSBC, approving only about 5.6% of 36 applicants and favouring bank-led issuers with strong AML and reserve credentials. Both plan HKD-referenced stablecoins for cross-border payments, a use case directly adjacent to Airwallex's core business and a likely template for other APAC regulators.",
-      "url": "https://www.hkma.gov.hk/eng/news-and-media/insight/2026/04/20260410/",
-      "region": "APAC",
-      "tags": [
-        "stablecoin",
-        "HKMA",
-        "Hong Kong",
-        "licensing"
-      ]
-    },
-    {
-      "title": "AUSTRAC Orders External AML/CTF Audit of Airwallex",
-      "source": "AUSTRAC",
-      "date": "2026-01-22",
-      "summary": "AUSTRAC ordered a section 162 external audit of Airwallex Designated Business Group citing suspected serious non-compliance, flagging transaction monitoring not attuned to multi-jurisdictional risk and weak suspicious-matter reporting and oversight, with findings due within 180 days at Airwallex's expense. This is the most directly material item for Airwallex, carrying reputational, IPO-timing and potential civil-penalty exposure as broader AUSTRAC enforcement intensifies.",
-      "url": "https://www.austrac.gov.au/new-and-media/news/austrac-orders-audit-airwallex-suspected-amlctf-compliance-failures",
-      "region": "APAC",
-      "tags": [
-        "AML",
-        "AUSTRAC",
-        "Airwallex",
-        "enforcement"
-      ]
-    },
-    {
-      "title": "FCA Safeguarding Supplementary Regime Takes Effect 7 May 2026",
-      "source": "Norton Rose Fulbright",
-      "date": "2026-05-07",
-      "summary": "The FCA's PS25/12 CASS 15 regime came into force on May 7, 2026, imposing daily reconciliations, a monthly safeguarding return, annual safeguarding audits, resolution packs and standardised acknowledgement letters, with third-party appointments to be reviewed within three months. For Airwallex's UK-regulated entities this is a hard deadline driving material operational, governance, audit and reporting change with real enforcement risk.",
-      "url": "https://www.nortonrosefulbright.com/en/knowledge/publications/cda2937a/preparing-for-the-fcas-new-safeguarding-rules-a-countdown-to-7-may-2026",
-      "region": "Europe",
-      "tags": [
-        "FCA",
-        "safeguarding",
-        "UK",
-        "e-money"
-      ]
-    },
-    {
-      "title": "US Treasury Endorses Revised FATF Cross-Border Payments Standard",
-      "source": "U.S. Department of the Treasury",
-      "date": "2026-06-13",
-      "summary": "Treasury endorsed FATF's revised payments standard, which explicitly recognises non-bank financial institutions, promotes transparency and ties into updated Recommendation 16 Travel Rule requirements for ISO 20022-aligned data on transfers above USD/EUR 1,000, effective no later than 2030. For Airwallex as a non-bank cross-border PSP, the recognition of non-bank PSPs and the data-transparency direction directly shape future AML compliance architecture.",
-      "url": "https://home.treasury.gov/news/press-releases/sb0172",
-      "region": "Global",
-      "tags": [
-        "FATF",
-        "AML",
-        "cross-border",
-        "sanctions"
-      ]
-    },
-    {
-      "title": "ASIC Digital Assets Roadmap; INFO 225 No-Action Relief Expires June 2026",
-      "source": "ASIC / GovPing",
-      "date": "2026-04-20",
-      "summary": "ASIC released an 18-month roadmap for the Digital Assets Framework Act (Royal Assent April 8, 2026; commencing April 9, 2027), with licence applications opening in months 12–18 and the INFO 225 class no-action position expiring in June 2026. For Melbourne-headquartered Airwallex this clarifies Australia's trajectory for any digital-asset or stablecoin-adjacent product and sets a near-term deadline to lodge applications or ensure existing-licence compliance.",
-      "url": "https://changeflow.com/govping/banking-finance/asic-digital-assets-framework-implementation-roadmap-from-ap-2026-04-20",
-      "region": "APAC",
-      "tags": [
-        "ASIC",
-        "digital assets",
-        "Australia",
-        "licensing"
-      ]
-    },
-    {
-      "title": "Airwallex Secures Full Commercial Licensing in Malaysia from Bank Negara",
-      "source": "Business Wire",
-      "date": "2026-04-01",
-      "summary": "Airwallex received e-money issuing and Class A licences from Bank Negara Malaysia, adding to its Class B Money Services Business licence and Registered Merchant Acquirer status to enable a full suite of payment services, after processing over RM2 billion in 2025 remittance volume. This is a positive licensing milestone expanding Airwallex's regulated APAC footprint and signalling deepening regulatory trust as it builds full-stack non-bank coverage.",
-      "url": "https://www.businesswire.com/news/home/20260331216889/en/Airwallex-Secures-Key-Regulatory-Approvals-for-Full-Commercial-Launch-in-Malaysia",
-      "region": "APAC",
-      "tags": [
-        "licensing",
-        "Airwallex",
-        "Malaysia"
-      ]
-    },
-    {
-      "title": "Revolut Wins Full UK Banking Licence; Wise Pays $4.2m US MSB Penalty",
-      "source": "CoinLaw",
-      "date": "2026-03-11",
-      "summary": "Revolut Bank UK exited mobilisation on March 11, 2026 with full PRA approval granting FSCS protection to 13 million UK users, while Wise earlier paid a $4.2 million Multi-State MSB Examination Taskforce penalty and now holds 70+ licences globally. These competitor developments highlight diverging regulatory regimes (banking deposit protection versus EMI safeguarding) and ongoing enforcement exposure relevant to Airwallex's own licensing strategy and US compliance posture.",
-      "url": "https://coinlaw.io/revolut-vs-wise-statistics/",
-      "region": "Europe",
-      "tags": [
-        "licensing",
-        "Revolut",
-        "Wise",
-        "enforcement"
+      "id": "ft",
+      "title": "Financial Times",
+      "articles": [
+        {
+          "title": "SpaceX signs $30bn deal to lease computing capacity to Google",
+          "source": "Financial Times",
+          "date": "2026-06-05",
+          "summary": "Agreement comes ahead of a record-breaking initial public offering for Elon Musk’s rockets-to-AI conglomerateArtificial intelligence, Industrials",
+          "url": "https://www.ft.com/content/77982a06-7d75-45a4-a64f-f8dc89a6a626?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss",
+          "region": "Global",
+          "tags": [
+            "FT",
+            "myFT"
+          ]
+        },
+        {
+          "title": "Nasdaq tumbles 4% as shares in chip and memory groups sink",
+          "source": "Financial Times",
+          "date": "2026-06-05",
+          "summary": "Rising expectations of a Federal Reserve rate increase send US bond yields rising sharply Artificial intelligence",
+          "url": "https://www.ft.com/content/2929bbd3-1f71-4424-a577-f016c3c65603?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss",
+          "region": "Global",
+          "tags": [
+            "FT",
+            "myFT"
+          ]
+        },
+        {
+          "title": "Inside the CBS mutiny against Bari Weiss and David Ellison",
+          "source": "Financial Times",
+          "date": "2026-06-05",
+          "summary": "A saga that started with Trump’s assault on ‘60 Minutes’ has turned into a full-blown crisisMergers & Acquisitions",
+          "url": "https://www.ft.com/content/6b54109c-cc81-4b2c-961d-9ef91b38aa4c?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss",
+          "region": "Global",
+          "tags": [
+            "FT",
+            "myFT"
+          ]
+        },
+        {
+          "title": "Donald Trump says US may take equity stakes in AI companies",
+          "source": "Financial Times",
+          "date": "2026-06-05",
+          "summary": "President suggests ‘partnership’ will ease voter concerns about the technology ahead of November’s midterm electionsArtificial intelligence",
+          "url": "https://www.ft.com/content/b1ab6106-77e6-4218-9eb4-e44bd56ca400?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss",
+          "region": "Global",
+          "tags": [
+            "FT",
+            "myFT"
+          ]
+        },
+        {
+          "title": "Investors boost bets for Fed rate rise after bumper US jobs report",
+          "source": "Financial Times",
+          "date": "2026-06-05",
+          "summary": "World’s biggest economy adds 172,000 jobs in May in sign labour market is ‘turning the corner’ US economy",
+          "url": "https://www.ft.com/content/ab37709f-9b5e-493c-902c-a87cba23b493?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss",
+          "region": "Global",
+          "tags": [
+            "FT",
+            "myFT"
+          ]
+        },
+        {
+          "title": "Meta weighs big equity raising after blockbuster Google deal",
+          "source": "Financial Times",
+          "date": "2026-06-05",
+          "summary": "Facebook parent could sell tens of billions of dollars in new stock as it seeks to finance AI infrastructureArtificial intelligence, Social Media",
+          "url": "https://www.ft.com/content/e6df645d-1709-4a77-b15d-aa43a0209efd?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss",
+          "region": "Global",
+          "tags": [
+            "FT",
+            "myFT"
+          ]
+        },
+        {
+          "title": "Parents force Starmer into embracing social media ban",
+          "source": "Financial Times",
+          "date": "2026-06-05",
+          "summary": "Prime minister set to announce restrictions this month despite previous oppositionSocial Media",
+          "url": "https://www.ft.com/content/224e2b68-0ccd-4dd3-bdfb-a2b2511098a5?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss",
+          "region": "Global",
+          "tags": [
+            "FT",
+            "myFT"
+          ]
+        },
+        {
+          "title": "The ethical dilemmas of AI",
+          "source": "Financial Times",
+          "date": "2026-06-05",
+          "summary": "How we address the revolution is a question of how we manage its uncertaintiesArtificial intelligence",
+          "url": "https://www.ft.com/content/d2c90246-11d7-4169-ac35-988de7fdb2af?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss",
+          "region": "Global",
+          "tags": [
+            "FT",
+            "myFT"
+          ]
+        },
+        {
+          "title": "US demands tougher rules for car parts in Mexico trade talks",
+          "source": "Financial Times",
+          "date": "2026-06-05",
+          "summary": "Washington wants to reduce Chinese supplies from North America’s vehicles while increasing American contentUS economy, Global trade",
+          "url": "https://www.ft.com/content/e1a1f02e-a55d-442d-a51f-000c33173dcd?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss",
+          "region": "Global",
+          "tags": [
+            "FT",
+            "myFT"
+          ]
+        },
+        {
+          "title": "Rate cut red card",
+          "source": "Financial Times",
+          "date": "2026-06-05",
+          "summary": "US labour market strength has kicked Fed rate cuts into touch US economy",
+          "url": "https://www.ft.com/content/a189bd3a-8093-477d-bf72-57f31ad6aaad?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96#myft:my-news:rss",
+          "region": "Global",
+          "tags": [
+            "FT",
+            "myFT"
+          ]
+        }
       ]
     }
   ]
