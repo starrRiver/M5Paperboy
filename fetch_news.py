@@ -31,7 +31,7 @@ Each object must have exactly these fields:
   "title": string (the article headline, max 80 chars)
   "source": string (publication name, e.g. "Reuters", "ASIC", "Financial Times")
   "date": string (ISO 8601 date, e.g. "2026-06-06")
-  "summary": string (2 sentences max, plain English, why this matters to Airwallex)
+  "summary": string (6-8 sentences in plain English: what happened, which regulator or company is involved, what the rule or enforcement action requires, key dates or numbers, and why this matters specifically to Airwallex — e.g. licensing exposure, operational impact, competitive signal, or precedent risk)
   "url": string (direct URL to the article)
   "region": string (one of: "APAC", "Europe", "Americas", "Global")
   "tags": array of strings (2-4 tags, e.g. ["licensing", "MAS", "Singapore"])
