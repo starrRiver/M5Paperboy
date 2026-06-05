@@ -1,142 +1,141 @@
 {
-  "generated_at": "2026-06-05T19:43:02.574053+00:00",
+  "generated_at": "2026-06-05T21:29:44.755785+00:00",
   "articles": [
     {
-      "title": "Outdated payment systems cost global businesses $330bn yearly, Airwallex finds",
+      "title": "Airwallex Research Pegs Cross-Border B2B Payment Friction at $330bn",
       "source": "Airwallex Newsroom",
       "date": "2026-06-03",
-      "summary": "Airwallex and Cebr quantified a $330bn 'Global Growth Tariff' from legacy B2B cross-border payment inefficiencies, with EMEA businesses bearing roughly $144bn of that burden. The research supports Airwallex's policy and commercial positioning around modernising cross-border payment infrastructure.",
+      "summary": "Airwallex and the Centre for Economics and Business Research published analysis quantifying a 'Global Growth Tariff' of roughly $330 billion in working capital tied up by legacy B2B cross-border payment systems, with EMEA bearing about $144 billion. For a product lawyer this is a market-positioning and advertising-substantiation matter that supports Airwallex's policy case for faster, more transparent settlement infrastructure.",
       "url": "https://www.airwallex.com/global/newsroom/airwallex-reveals-outdated-payment-systems-cost-global-businesses-330-billion-every-year",
       "region": "Global",
       "tags": [
-        "cross-border payments",
+        "cross-border",
         "Airwallex",
         "FX"
       ]
     },
     {
-      "title": "Airwallex acquires Leapfin to expand financial lifecycle capabilities",
-      "source": "Airwallex Newsroom",
-      "date": "2026-06-04",
-      "summary": "Airwallex acquired Leapfin to automate revenue recognition and reconciliation for global finance teams, deepening its product stack beyond core payments. Continued M&A expands the regulatory and data-handling surface area that product counsel must integrate.",
-      "url": "https://www.airwallex.com/newsroom",
-      "region": "Global",
-      "tags": [
-        "Airwallex",
-        "M&A",
-        "product"
-      ]
-    },
-    {
-      "title": "House of Lords: UK lagging on stablecoin regulation, ease BoE limits",
-      "source": "The Block",
+      "title": "Revolut Eyes US Bank Launch With FDIC-Insured Accounts and Stablecoins",
+      "source": "CoinLaw",
       "date": "2026-06-03",
-      "summary": "The Lords Financial Services Regulation Committee's report 'Stablecoins: waiting for regulation' urged the BoE and FCA to reconsider holding limits, unremunerated backing-asset rules, and restrictions on banks issuing stablecoins. With the FCA's full crypto regime due 25 October 2027, the calibration directly affects payment firms planning GBP stablecoin or settlement products.",
-      "url": "https://www.theblock.co/post/403498/house-of-lords-committee-urges-uk-regulators-to-ease-stablecoin-rules-that-could-stifle-market-growth",
-      "region": "Europe",
-      "tags": [
-        "stablecoin",
-        "FCA",
-        "Bank of England",
-        "UK"
-      ]
-    },
-    {
-      "title": "FCA publishes responses on AML rules for cryptoasset firms",
-      "source": "Norton Rose Fulbright",
-      "date": "2026-06-03",
-      "summary": "On 3 June 2026 the FCA published responses clarifying the interaction between the Money Laundering Regulations 2017 and cryptoasset firm obligations, including transfer-of-funds information requirements. Relevant for any Airwallex digital-asset or stablecoin-adjacent payment flows touching the UK.",
-      "url": "https://www.regulationtomorrow.com/eu/cross-border-payments-survey-results-on-implementation-of-the-fatf/",
-      "region": "Europe",
-      "tags": [
-        "AML",
-        "FCA",
-        "crypto",
-        "UK"
-      ]
-    },
-    {
-      "title": "Revolut's planned US bank to offer stablecoins and FDIC-insured accounts",
-      "source": "CoinCentral",
-      "date": "2026-06-03",
-      "summary": "Revolut confirmed plans to offer stablecoin services and FDIC-insured accounts via a future US bank after filing for an OCC national bank charter in March 2026. The competitor's charter-led US strategy mirrors the broader fintech push for direct federal banking access that Airwallex must benchmark against.",
-      "url": "https://coincentral.com/revolut-plans-us-bank-with-stablecoins-and-fdic-insured-accounts/",
+      "summary": "Reporting confirmed Revolut is pursuing a US national bank charter (filed March) to launch a branchless Stamford-based bank around 2027, bundling FDIC-insured accounts with stablecoin, crypto and multi-currency deposits aimed at cross-border customers. For Airwallex this is a competitive signal underscoring the strategic premium on US licensing depth and the convergence of stablecoin rails with mainstream banking.",
+      "url": "https://coinlaw.io/revolut-us-bank-launch-fdic-insured-accounts/",
       "region": "Americas",
       "tags": [
+        "licensing",
         "Revolut",
-        "licensing",
-        "stablecoin",
-        "OCC"
+        "stablecoin"
       ]
     },
     {
-      "title": "ASIC reporting & audit update confirms penalties for late lodgement",
-      "source": "Insurance Business",
-      "date": "2026-05-29",
-      "summary": "ASIC's 29 May update confirmed infringement notices to Canva and Mecca entities for late financial report lodgement, while outgoing chair Joe Longo flagged a depleting Enforcement Special Account. Overseas groups with Australian subsidiaries, including payment firms, face heightened reporting-compliance scrutiny.",
-      "url": "https://www.insurancebusinessmag.com/au/news/breaking-news/asic-sounds-alarm-on-dwindling-enforcement-fund-577080.aspx",
-      "region": "APAC",
-      "tags": [
-        "ASIC",
-        "enforcement",
-        "Australia",
-        "financial reporting"
-      ]
-    },
-    {
-      "title": "ASIC digital-asset 'no-action' relief deadline looms 30 June 2026",
-      "source": "Dwyer Harris",
-      "date": "2026-06-01",
-      "summary": "Providers of financial services involving digital-asset products must determine whether they need an AFS licence or variation and apply by 30 June 2026, when ASIC's sector-wide no-action position ends. A new Digital Assets Framework Bill will add DAP and TCP authorisations from April 2027, relevant to any Airwallex token-touching activity in Australia.",
-      "url": "https://www.dwyerharris.com/blog/financial-services-and-credit-monthly-update-may-2026",
-      "region": "APAC",
-      "tags": [
-        "ASIC",
-        "digital assets",
-        "licensing",
-        "Australia"
-      ]
-    },
-    {
-      "title": "MAS revokes Major Payment Institution licence of Bsquared Technology",
+      "title": "MAS Revokes Major Payment Institution Licence of Bsquared Technology",
       "source": "Monetary Authority of Singapore",
       "date": "2026-05-20",
-      "summary": "MAS revoked BSQ's MPI licence effective 14 May 2026 after an inspection found serious breaches including risk-management and outsourcing failures and false or misleading information provided to the regulator. A clear signal of MAS's enforcement posture on licensing integrity for payment institutions in Singapore.",
+      "summary": "MAS revoked Bsquared Technology's Major Payment Institution licence effective May 14, 2026 after an inspection found serious risk-management and outsourcing failings and false or misleading information provided from application through inspection. For Airwallex, which holds MAS licensing and is co-headquartered in Singapore, this is a precedent on outsourcing, related-party governance and candour with the regulator.",
       "url": "https://www.mas.gov.sg/news/media-releases/2026/mas-revokes-the-major-payment-institution-licence-of-bsquared-technology-pte-ltd",
       "region": "APAC",
       "tags": [
-        "MAS",
-        "licensing",
         "enforcement",
-        "Singapore"
+        "MAS",
+        "Singapore",
+        "licensing"
       ]
     },
     {
-      "title": "FCA safeguarding supplementary regime now in force from 7 May 2026",
+      "title": "HKMA Grants First Two Stablecoin Licences to Anchorpoint and HSBC",
+      "source": "Hong Kong Monetary Authority",
+      "date": "2026-04-10",
+      "summary": "The HKMA granted Hong Kong's first stablecoin issuer licences to Anchorpoint (Standard Chartered/HKT/Animoca JV) and HSBC, approving only about 5.6% of 36 applicants and favouring bank-led issuers with strong AML and reserve credentials. Both plan HKD-referenced stablecoins for cross-border payments, a use case directly adjacent to Airwallex's core business and a likely template for other APAC regulators.",
+      "url": "https://www.hkma.gov.hk/eng/news-and-media/insight/2026/04/20260410/",
+      "region": "APAC",
+      "tags": [
+        "stablecoin",
+        "HKMA",
+        "Hong Kong",
+        "licensing"
+      ]
+    },
+    {
+      "title": "AUSTRAC Orders External AML/CTF Audit of Airwallex",
+      "source": "AUSTRAC",
+      "date": "2026-01-22",
+      "summary": "AUSTRAC ordered a section 162 external audit of Airwallex Designated Business Group citing suspected serious non-compliance, flagging transaction monitoring not attuned to multi-jurisdictional risk and weak suspicious-matter reporting and oversight, with findings due within 180 days at Airwallex's expense. This is the most directly material item for Airwallex, carrying reputational, IPO-timing and potential civil-penalty exposure as broader AUSTRAC enforcement intensifies.",
+      "url": "https://www.austrac.gov.au/new-and-media/news/austrac-orders-audit-airwallex-suspected-amlctf-compliance-failures",
+      "region": "APAC",
+      "tags": [
+        "AML",
+        "AUSTRAC",
+        "Airwallex",
+        "enforcement"
+      ]
+    },
+    {
+      "title": "FCA Safeguarding Supplementary Regime Takes Effect 7 May 2026",
       "source": "Norton Rose Fulbright",
       "date": "2026-05-07",
-      "summary": "The FCA's CASS 15 supplementary safeguarding regime took effect 7 May 2026, imposing daily reconciliation, monthly returns, annual audits and resolution-pack requirements on payment and e-money institutions. New guidance clarifies that standalone FX carried out independently of payment services need not be safeguarded, a material point for Airwallex's UK entities.",
+      "summary": "The FCA's PS25/12 CASS 15 regime came into force on May 7, 2026, imposing daily reconciliations, a monthly safeguarding return, annual safeguarding audits, resolution packs and standardised acknowledgement letters, with third-party appointments to be reviewed within three months. For Airwallex's UK-regulated entities this is a hard deadline driving material operational, governance, audit and reporting change with real enforcement risk.",
       "url": "https://www.nortonrosefulbright.com/en/knowledge/publications/cda2937a/preparing-for-the-fcas-new-safeguarding-rules-a-countdown-to-7-may-2026",
       "region": "Europe",
       "tags": [
         "FCA",
         "safeguarding",
-        "e-money",
-        "UK"
+        "UK",
+        "e-money"
       ]
     },
     {
-      "title": "FATF endorses revised cross-border payments standard at June plenary",
+      "title": "US Treasury Endorses Revised FATF Cross-Border Payments Standard",
       "source": "U.S. Department of the Treasury",
       "date": "2026-06-13",
-      "summary": "FATF reached consensus on a revised payments standard that explicitly recognises non-bank financial institutions and promotes transparency in cross-border payments, building on the 2025 Recommendation 16 overhaul effective by 2030. This directly shapes the AML and data obligations Airwallex must build into ISO 20022-aligned payment messaging.",
+      "summary": "Treasury endorsed FATF's revised payments standard, which explicitly recognises non-bank financial institutions, promotes transparency and ties into updated Recommendation 16 Travel Rule requirements for ISO 20022-aligned data on transfers above USD/EUR 1,000, effective no later than 2030. For Airwallex as a non-bank cross-border PSP, the recognition of non-bank PSPs and the data-transparency direction directly shape future AML compliance architecture.",
       "url": "https://home.treasury.gov/news/press-releases/sb0172",
       "region": "Global",
       "tags": [
         "FATF",
         "AML",
-        "cross-border payments",
-        "Travel Rule"
+        "cross-border",
+        "sanctions"
+      ]
+    },
+    {
+      "title": "ASIC Digital Assets Roadmap; INFO 225 No-Action Relief Expires June 2026",
+      "source": "ASIC / GovPing",
+      "date": "2026-04-20",
+      "summary": "ASIC released an 18-month roadmap for the Digital Assets Framework Act (Royal Assent April 8, 2026; commencing April 9, 2027), with licence applications opening in months 12–18 and the INFO 225 class no-action position expiring in June 2026. For Melbourne-headquartered Airwallex this clarifies Australia's trajectory for any digital-asset or stablecoin-adjacent product and sets a near-term deadline to lodge applications or ensure existing-licence compliance.",
+      "url": "https://changeflow.com/govping/banking-finance/asic-digital-assets-framework-implementation-roadmap-from-ap-2026-04-20",
+      "region": "APAC",
+      "tags": [
+        "ASIC",
+        "digital assets",
+        "Australia",
+        "licensing"
+      ]
+    },
+    {
+      "title": "Airwallex Secures Full Commercial Licensing in Malaysia from Bank Negara",
+      "source": "Business Wire",
+      "date": "2026-04-01",
+      "summary": "Airwallex received e-money issuing and Class A licences from Bank Negara Malaysia, adding to its Class B Money Services Business licence and Registered Merchant Acquirer status to enable a full suite of payment services, after processing over RM2 billion in 2025 remittance volume. This is a positive licensing milestone expanding Airwallex's regulated APAC footprint and signalling deepening regulatory trust as it builds full-stack non-bank coverage.",
+      "url": "https://www.businesswire.com/news/home/20260331216889/en/Airwallex-Secures-Key-Regulatory-Approvals-for-Full-Commercial-Launch-in-Malaysia",
+      "region": "APAC",
+      "tags": [
+        "licensing",
+        "Airwallex",
+        "Malaysia"
+      ]
+    },
+    {
+      "title": "Revolut Wins Full UK Banking Licence; Wise Pays $4.2m US MSB Penalty",
+      "source": "CoinLaw",
+      "date": "2026-03-11",
+      "summary": "Revolut Bank UK exited mobilisation on March 11, 2026 with full PRA approval granting FSCS protection to 13 million UK users, while Wise earlier paid a $4.2 million Multi-State MSB Examination Taskforce penalty and now holds 70+ licences globally. These competitor developments highlight diverging regulatory regimes (banking deposit protection versus EMI safeguarding) and ongoing enforcement exposure relevant to Airwallex's own licensing strategy and US compliance posture.",
+      "url": "https://coinlaw.io/revolut-vs-wise-statistics/",
+      "region": "Europe",
+      "tags": [
+        "licensing",
+        "Revolut",
+        "Wise",
+        "enforcement"
       ]
     }
   ]
