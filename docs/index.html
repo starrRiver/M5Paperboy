@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>M5Paperboy</title>
+  <style>
+    body { font-family: Georgia, serif; max-width: 800px; margin: 40px auto; padding: 0 20px; }
+    h1 { border-bottom: 2px solid #333; }
+    .article { margin: 24px 0; padding: 16px; border-left: 4px solid #666; }
+    .meta { color: #666; font-size: 0.9em; }
+    .tag { background: #eee; padding: 2px 6px; border-radius: 3px; font-size: 0.8em; margin-right: 4px; }
+    .region { font-weight: bold; color: #444; }
+  </style>
+</head>
+<body>
+  <h1>M5Paperboy</h1>
+  <p id="generated"></p>
+  <div id="articles"></div>
+  <script>
+    fetch('articles.json').then(r => r.json()).then(data => {
+      document.getElementById('generated').textContent =
+        'Updated: ' + new Date(data.generated_at).toLocaleString();
+      const div = document.getElementById('articles');
+      data.articles.forEach(a => {
+        div.innerHTML += `
+          <div class="article">
+            <h2><a href="${a.url}" target="_blank">${a.title}</a></h2>
+            <p class="meta">
+              <span class="region">${a.region}</span> &middot;
+              ${a.source} &middot; ${a.date}
+            </p>
+            <p>${a.summary}</p>
+            <p>${a.tags.map(t => `<span class="tag">${t}</span>`).join('')}</p>
+          </div>`;
+      });
+    });
+  </script>
+</body>
+</html>
