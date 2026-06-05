@@ -2,8 +2,10 @@ name: Daily News Fetch
 
 on:
   schedule:
+    # 7:00 AM Melbourne time = 21:00 UTC (AEST, UTC+10)
+    # During AEDT (UTC+11, Oct–Apr): change to 20:00 UTC
     - cron: "0 21 * * *"
-  workflow_dispatch:
+  workflow_dispatch:  # allows manual trigger from GitHub website
 
 permissions:
   contents: write
@@ -19,7 +21,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install anthropic
+        run: pip install -r requirements.txt
 
       - name: Fetch articles
         env:
